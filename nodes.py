@@ -526,7 +526,7 @@ NODE_CLASS_MAPPINGS = {
     "AnimalPoseAndDetection": AnimalPoseAndDetection,
     "DrawAnimalViTPose": DrawAnimalViTPose,
     "AnimalPoseRetargetPromptHelper": AnimalPoseRetargetPromptHelper,
-    "PoseDetectionOneToAllAnimation": PoseDetectionOneToAllAnimation,
+    "PoseDetectionOneToAllAnimation": AnimalPoseDetectionOneToAllAnimation,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
