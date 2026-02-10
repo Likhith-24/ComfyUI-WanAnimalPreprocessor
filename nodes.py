@@ -361,7 +361,7 @@ class AnimalPoseRetargetPromptHelper:
         return (tpl_prompt, refer_prompt)
 
 
-class PoseDetectionOneToAllAnimation:
+class AnimalPoseDetectionOneToAllAnimation:
     @classmethod
     def INPUT_TYPES(s):
         return {
@@ -526,7 +526,7 @@ NODE_CLASS_MAPPINGS = {
     "AnimalPoseAndDetection": AnimalPoseAndDetection,
     "DrawAnimalViTPose": DrawAnimalViTPose,
     "AnimalPoseRetargetPromptHelper": AnimalPoseRetargetPromptHelper,
-    "PoseDetectionOneToAllAnimation": AnimalPoseDetectionOneToAllAnimation,
+    "AnimalPoseDetectionOneToAllAnimation": AnimalPoseDetectionOneToAllAnimation,
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
@@ -534,5 +534,5 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "AnimalPoseAndDetection": "Animal Pose and Detection",
     "DrawAnimalViTPose": "Draw Animal ViTPose",
     "AnimalPoseRetargetPromptHelper": "Animal Pose Retarget Prompt Helper",
-    "PoseDetectionOneToAllAnimation": "Animal Pose Detection OneToAll Animation",
+    "AnimalPoseDetectionOneToAllAnimation": "Animal Pose Detection OneToAll Animation",
 }
